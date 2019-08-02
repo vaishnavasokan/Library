@@ -8,7 +8,6 @@ function validateReg()
     if (uid==null || uid=="" || upwd==null || upwd == "" || cpwd==null  ||  cpwd=="")
     {  
         alert("Please enter the required fields");
-        return false;
     }
 
     if(cpwd!=upwd)

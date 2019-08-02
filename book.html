@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./mydata.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+    <script>
+    </script>
+</head>
+<body>
+ 
+        <header class="header">
+                <nav class="navbar navbar-expand-lg navbar-dark nav-custom">
+                    <ul class="navbar-nav">
+                    <li class="nav-item" id="login">
+                    <a class="nav-link" href="./library.html" style="font-family: Cambria, 'Times New Roman'" disabled>HOME</a>
+                    </li>
+                    <li class="nav-item  active" id="reg">
+                    <a class="nav-link" href="./Register.html" style="font-family: Cambria, 'Times New Roman'">REGISTER</a>
+                    </li>
+                    <li class="nav-item  active" id="book">
+                    <a class="nav-link" href="./book.html" style="font-family: Cambria, 'Times New Roman'">VIEW BOOKS</a>
+                    </li>
+                    </ul>
+                </nav>
+            </header>
+        <section class="custom-header">
+            <h1 style="color: white">Library</h1>
+            <div class="jumbotron custom-jumbo">
+                        
+            </div>  
+        </section>
+
+        <br>
+        <section class="container" >
+            <section class="custom-container-index" style="border: 1px solid black;">
+                    <div class="card" style="position: relative; width: 100%; padding: 15px; background: white;">
+                            <h2 style="color:black; text-align: center;">BOOKS</h2>
+                            <div class="card-body">   
+                                <form>
+                                <table>
+                                    <br>
+                                    <tr>
+                                        <td style="margin: 15px"><h5>Add Filter by Genre:    </h5></td>
+                                        <td>
+                                        <select class="btn btn-primary" id="category">
+                                        <option>Autobiography</option>
+                                        <option>Fiction</option>
+                                        <option>Novel</option>
+                                        <option>Fantasy</option>
+                                        <option>Quest</option>
+                                        </select>
+                                    </td>
+                                    </tr>
+                                </table>
+                                <br>
+                                </form>
+                            </div>
+                    </div>
+            </section>
+        </section>
+
+
+        <div class="container">
+            <br>
+            <img src="./ajax-loader.gif"  id="image"></img>
+            <div class="container" style="border: 1px solid black;">
+            <div class="result" class="form-control"></div>
+            </div>
+  
+        </div>
+ 
+</body>
+</html>

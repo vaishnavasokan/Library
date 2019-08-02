@@ -1,0 +1,91 @@
+[{
+    "name":"The God of Small Things",
+    "author":"Arundhati Roy",
+    "category":"Fiction",
+    "price":499,
+    "image1":"./tgost.jpg"
+},
+
+{
+    "name":"3 Mistakes of my Life",
+    "author":"Chetan Bhagat",
+    "category":"Fiction",
+    "price":200,
+    "image1":"./3m.jpg"
+},
+
+{
+    "name":"Wings of Fire",
+    "author":"APJ Abdul Kalam",
+    "category":"Autobiography",
+    "price":300,
+    "image1":"./apj.jpg"
+},
+
+{
+    "name":"The Ministry of Utmost Happiness",
+    "author":"Arundhati Roy",
+    "category":"Fiction",
+    "price":399,
+    "image1":"./mouh.jpg"
+},
+
+{
+    "name":"The Alchemist",
+    "author":"Paulo Coelho",
+    "category":"Quest",
+    "price":300,
+    "image1":"./alchemist.jpg"
+},
+
+{
+    "name":"The Hippie",
+    "author":"Paulo Coelho",
+    "category":"Fiction",
+    "price":350,
+    "image1":"./hippie.jpg"
+},
+
+{
+    "name":"Harry Potter",
+    "author":"JK Rowling",
+    "category":"Fantasy",
+    "price":400,
+    "image1":"./hp.jpg"
+},
+
+{
+    "name":"One Indian Girl",
+    "author":"Chethan Bhagat",
+    "category":"Fiction",
+    "price":250,
+    "image1":"./oig.jpg"
+},
+
+
+{
+    "name":"Playing it my way",
+    "author":"Sachin Tendulkar,Boria Majumdar",
+    "category":"Autobiography",
+    "price":350,
+    "image1":"./pimw.jpg"
+},
+
+{
+    "name":"The Story of my experiments with truth",
+    "author":"Mahatma Gandhi",
+    "category":"Autobiography",
+    "price":300,
+    "image1":"./mkg.jpg"
+},
+
+
+{
+    "name":"Aadujeevitham",
+    "author":"Benyamin",
+    "category":"Novel",
+    "price":300,
+    "image1":"./aj.jpg"
+
+
+}]

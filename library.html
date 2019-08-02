@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+    <script src="loginValidate.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Library Management System</title>
 </head>
@@ -43,9 +43,12 @@
                         <div class="card-body">
                             <form style="position: relative; background: rgb(30, 0, 161); margin: 0 auto 100px; padding: 45px; text-align: center; max-width: 360px; z-index: 1; ">
                                 <div class="login-form" style="border: 1px solid black; padding: 15px; background-color: #99bbff; ">
+
                                     <input type="text" class="form-control" id="uname" placeholder="username" style="width: 100%; padding: 15px; margin: 0 0 15px; font-family: verdana; background: #f2f2f2"/>
+
                                     <input type="password" class="form-control" id="pswd" placeholder="password" style="width: 100%; padding: 15px; margin: 0 0 15px; font-family: verdana; background: #f2f2f2"/>
-                                    <button type="button" class="btn btn-success" id="btn1" onclick="loginValidate()">Login</button>
+
+                                    <button type="button" class="btn btn-success" id="btn1" onclick="loginValidate()">Submit</Button>
                                 </div>
                             </form>
                         </div>
